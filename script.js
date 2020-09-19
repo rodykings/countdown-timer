@@ -23,9 +23,6 @@ copyrightEl.innerHTML =`© Copyright ${currentYear} Rodykings`;
 
 nextAnniversaryYear = currentYear;
 
-console.log(currentDay, anniversaryDay);
-console.log(currentMonth, anniversaryMonth);
-
 if(currentDay === anniversaryDay && currentMonth === anniversaryMonth){
     console.log(true);
     titleEl.innerHTML = "Parabéns Trofa!";
