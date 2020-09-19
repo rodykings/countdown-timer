@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-image: url(https://scontent.fopo2-2.fna.fbcdn.net/v/t31.0-8/22424453_1660130814053333_1248635752646527787_o.jpg?_nc_cat=108&_nc_sid=19026a&_nc_ohc=fsWq5mpHhTIAX8k_O41&_nc_ht=scontent.fopo2-2.fna&oh=e18fb02fff0f59a18b07b9b48b49b6fb&oe=5F8A5C6B);
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+
+h1{
+    font-size: 3rem;
+    
+}
+
+span{
+  
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -40px;
+    padding-bottom: 10px;
+    opacity: 0.7;
+}
+
+#title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+
+.countdown{
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin: 0 1rem;
+    padding: 2rem 0;
+}
+
+.countdown span{
+    font-size: 1rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100vw;
+    background-color: rgb(0, 0, 0, 0.5);
+    text-align: center;
+}
+
