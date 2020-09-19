@@ -8,7 +8,7 @@ const spanEl = document.getElementById('anniversary');
 
 //Anniversary date
 const anniversaryDay = 19;
-const anniversaryMonth = 8;//month-1
+const anniversaryMonth = 10;//month-1
 let nextAnniversaryYear;
 let nextAnniversary;
 
